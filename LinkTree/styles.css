@@ -1,0 +1,101 @@
+body {
+
+    /*FUNDO GRADIENTE QUE NÃO SE MEXE COM O SCROLL E NAO SE REPETE, OCUPA A JANELA TODA*/
+    background: linear-gradient(to bottom, #3361a2, #60658a);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* mantém o gradiente mesmo com scroll */
+
+
+    .fotoPerfil {
+    
+        width: 140px;           /* tamanho da imagem, ajusta como quiser */
+        height: 140px;
+        border-radius: 50%;     /* deixa redonda */
+        object-fit: cover;      /* mantém proporção, corta o excesso se necessário */
+        margin-top: 70px;       /* espaço do topo */
+        border: 3px solid #fff; /* borda colorida (muda a cor aqui) */
+
+        display: block;         /* ESTAS 3 LINHAS SERVEM PARA CENTRALIZAR A IMAGEM*/
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .nome {
+
+        font-family: 'Segoe UI';
+        font-size: 28px;        /* tamanho do texto */
+        font-weight: normal;      /* tira o negrito */
+        color: #fff;            /* branco */
+        text-align: center;     /* centralizado */
+
+    }
+
+    .paragrafo {
+
+        font-family: 'Segoe UI';
+        font-size: 18px;        /* tamanho do texto */
+        font-weight: normal;      /* tira o negrito */
+        color: #fff;            /* branco */
+        text-align: center;     /* centralizado */
+
+    }
+
+    .botao {
+        
+        width: 40%;
+        height: 50px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+
+        display: block;         /* ESTAS 3 LINHAS SERVEM PARA CENTRALIZAR A IMAGEM*/
+        margin-left: auto;
+        margin-right: auto;
+
+        text-decoration: none; /* TIRAR OS EFEITOS DOS LINKS (SUBLINHADO, TEXTO ROXO) */
+
+        justify-content: center;    /* texto centralizado */
+
+
+    }
+
+    .textoBotao {
+
+        font-family: 'Segoe UI';
+        font-size: 28px;        /* tamanho do texto */
+        font-weight: normal;      /* tira o negrito */
+        color: #fff;            /* branco */
+
+        display: block;
+        text-align: center;     /* centralizado */
+        margin-top: -50px;
+    
+    }
+
+    .icon {
+        width:35px;
+        height: 35px;
+
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+        margin-left: 7.5px;
+    }
+
+    .rodape {
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+    }
+
+
+    .espaco {
+
+        margin-top: 30px;
+
+    }
+
+
+}
