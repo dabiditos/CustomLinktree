@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(-45deg, #3d76bb, #641fd2);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.fotoPerfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 70px;
+    border: 3px solid #fff;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nome {
+    font-family: 'Segoe UI';
+    font-size: 28px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+}
+
+.paragrafo {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+}
+
+.botao {
+    width: 40%;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-decoration: none;
+
+    /* TODAS as animações dos botões */
+    transition: transform 0.3s ease,
+                background-color 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-in:hover {
+    transform: scale(1.05);
+}
+
+/* INSTAGRAM */
+.botao-instagram:hover {
+    background-color: #e1306c;
+    border-color: #e1306c;
+}
+
+/* YOUTUBE */
+.botao-youtube:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+/* SPOTIFY */
+.botao-spotify:hover {
+    background-color: #189343;
+    border-color: #189343;
+}
+
+/* DISCORD */
+.botao-discord:hover {
+    background-color: #5865f2;
+    border-color: #5865f2;
+}
+
+.textoBotao {
+    font-family: 'Segoe UI';
+    font-size: 28px;
+    font-weight: normal;
+    color: #fff;
+
+    display: block;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    margin-left: 7.5px;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.espaco {
+    margin-top: 30px;
+}
